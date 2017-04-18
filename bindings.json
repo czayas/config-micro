@@ -1,0 +1,10 @@
+{
+  "CtrlLeft":        "WordLeft",
+  "CtrlRight":       "WordRight",
+  "CtrlShiftLeft":   "SelectWordLeft",
+  "CtrlShiftRight":  "SelectWordRight",
+  "AltLeft":         "StartOfLine",
+  "AltRight":        "EndOfLine",
+  "AltShiftLeft":    "SelectToStartOfLine",
+  "AltShiftRight":   "SelectToEndOfLine"
+}
