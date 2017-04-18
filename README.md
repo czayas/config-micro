@@ -1,4 +1,9 @@
 # config-micro
-Archivos de configuración para Micro Editor
+Archivos de configuración para [Micro Editor](https://micro-editor.github.io/)
 
-Copiar a ~/.config/micro
+## Instalación:
+- Copiar los archivos a la carpeta ~/.config/micro
+
+## Uso:
+- Configuraciones adecuadas para programar en Python.
+- Incluye ejecución de archivo desde el editor mediante F5.
