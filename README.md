@@ -15,10 +15,29 @@ sin salir del editor, idealmente apretando F5 como estoy acostumbrado.
 Estos archivos de configuración corrigen ambos aspectos.
 
 
-## Instalación:
-- Copiar los archivos a la carpeta ~/.config/micro
-
 ## Ventajas:
 - Configuraciones adecuadas para programar en Python.
 - Las teclas Ctrl y Alt se comportan como debe ser (Linux/Win).
 - Incluye ejecución de archivo desde el editor mediante F5.
+
+
+## Instalación:
+Para instalar los archivos de configuración, sólo hay que copiarlos a la carpeta `~/.config/micro`.
+
+Desde la línea de comandos **bash**, puede hacerse de la siguiente manera:
+
+```bash
+cd ~/.config/micro/
+wget https://github.com/czayas/config-micro/blob/master/bindings.json
+wget https://github.com/czayas/config-micro/blob/master/settings.json
+wget https://github.com/czayas/config-micro/blob/master/init.lua
+cd -
+```
+Al finalizar la descarga, si en la carpeta `~/.config/micro` hay archivos con extensión `.1` éstos deben reemplazar a los que no poseen dicha extensión. Ejemplo:
+
+```bash
+cd ~/.config/micro/
+mv settings.json settings.json.backup
+mv settings.json.1 settings.json
+cd -
+```
