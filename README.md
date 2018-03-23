@@ -31,7 +31,7 @@ Desde la línea de comandos **bash**, la instalación puede realizarse de las si
 ### Automática
 
 ```bash
-curl -O https://raw.githubusercontent.com/czayas/config-micro/master/install.sh && bash install.sh && rm install.sh
+curl https://raw.githubusercontent.com/czayas/config-micro/master/install.sh | bash
 ```
 
 ### Manual
