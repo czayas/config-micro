@@ -26,6 +26,8 @@ Estos archivos de configuración corrigen ambos aspectos.
 
 Para instalar los archivos de configuración, sólo hay que copiarlos a la carpeta `~/.config/micro`.
 
+**ATENCIÓN:** En caso de utilizar la versión 2 de Micro Editor, el archivo **init2.lua** debe reemplazar al **init.lua**, por lo tanto hay que borrar o renombrar este último y cambiarle el nombre al primero, quitándole el 2.
+
 Desde la línea de comandos **bash**, la instalación puede realizarse de las siguientes maneras:
 
 ### Automática
