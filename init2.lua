@@ -1,3 +1,5 @@
+-- Para Micro Editor V2
+
 local shell = import("micro/shell")
 local config = import("micro/config")
 

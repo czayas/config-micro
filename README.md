@@ -26,8 +26,6 @@ Estos archivos de configuración corrigen ambos aspectos.
 
 Para instalar los archivos de configuración, sólo hay que copiarlos a la carpeta `~/.config/micro`.
 
-**ATENCIÓN:** En caso de utilizar la versión 2 de Micro Editor, el archivo **init2.lua** debe reemplazar al **init.lua**, por lo tanto hay que borrar o renombrar este último y cambiarle el nombre al primero, quitándole el 2.
-
 Desde la línea de comandos **bash**, la instalación puede realizarse de las siguientes maneras:
 
 ### Automática
@@ -42,7 +40,8 @@ curl https://raw.githubusercontent.com/czayas/config-micro/master/install.sh | b
 cd ~/.config/micro/
 wget https://raw.githubusercontent.com/czayas/config-micro/master/bindings.json
 wget https://raw.githubusercontent.com/czayas/config-micro/master/settings.json
-wget https://raw.githubusercontent.com/czayas/config-micro/master/init.lua
+wget https://raw.githubusercontent.com/czayas/config-micro/master/init1.lua
+wget https://raw.githubusercontent.com/czayas/config-micro/master/init2.lua
 cd -
 ```
 
@@ -54,3 +53,7 @@ mv settings.json settings.json.backup
 mv settings.json.1 settings.json
 cd -
 ```
+
+### El archivo init.lua
+
+Dependiendo de la versión de Micro Editor instalada, debe renombrarse el archivo **init1.lua** o **init2.lua** a **init.lua**
