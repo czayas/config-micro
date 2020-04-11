@@ -1,10 +1,12 @@
 {
-  "CtrlLeft":        "WordLeft",
-  "CtrlRight":       "WordRight",
-  "CtrlShiftLeft":   "SelectWordLeft",
-  "CtrlShiftRight":  "SelectWordRight",
-  "AltLeft":         "StartOfLine",
-  "AltRight":        "EndOfLine",
-  "AltShiftLeft":    "SelectToStartOfLine",
-  "AltShiftRight":   "SelectToEndOfLine"
+    "Alt-/": "lua:comment.comment",
+    "AltLeft": "StartOfLine",
+    "AltRight": "EndOfLine",
+    "AltShiftLeft": "SelectToStartOfLine",
+    "AltShiftRight": "SelectToEndOfLine",
+    "CtrlLeft": "WordLeft",
+    "CtrlRight": "WordRight",
+    "CtrlShiftLeft": "SelectWordLeft",
+    "CtrlShiftRight": "SelectWordRight",
+    "F5": "lua:initlua.python3"
 }
