@@ -3,7 +3,7 @@
 
 pushd ~/.config/micro/ >/dev/null || exit
 
-for archivo in bindings.json settings.json init1.lua init2.lua
+for archivo in bindings.json settings.json init.lua
 do
     if [[ -e $archivo ]]
     then
