@@ -54,6 +54,6 @@ mv settings.json.1 settings.json
 cd -
 ```
 
-### El archivo init.lua
+### Observaciones
 
-Dependiendo de la versión de Micro Editor instalada, debe renombrarse el archivo **init1.lua** o **init2.lua** a **init.lua**
+- Estos archivos de configuración están pensados para la versión 2.x.x de Micro Editor. Se incluye el archivo **init1.lua** en caso de que se cuente con la versión 1.x.x.
